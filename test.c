@@ -121,10 +121,21 @@ int main()        // define the main function
     // 'continue' will continue with next iteration of loop, essentially skipping one iteration
 
     // arrays
-    int numbers[] = {1,5,7};
-    printf("array 1st index: %d", numbers[0]);
+    // int numbers[] = {1,5,7};
+    // printf("array 1st index: %d", numbers[0]);
+    // numbers[0] = 65;
+    // for (int i = 0; i < (sizeof(numbers)/sizeof(numbers[0])); i++){
+    //     // (sizeof(numbers)/sizeof(numbers[0])) because c has no built in .length or .size function
+    //     printf("\narray index %d: %d", i+1, numbers[i]);
+    // }
+    // int numbersFixedSize[4]; // cannot change size of arr after creation
+    // // use this method to know the size of array
+    // numbersFixedSize[0] = 9;
+    // numbersFixedSize[3] = 33;
+    // int matrix[2][3] = {{1,4,5}, {2,3,6}};
+    // printf("\nrow 2 column 2: %d", matrix[1][1]);
 
-
+    // stopped at strings w3 schools
 
     return 0; //does not matter unless calling main() function
 }
