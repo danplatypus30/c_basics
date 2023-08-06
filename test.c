@@ -61,10 +61,10 @@ int main()        // define the main function
     // %lu is long unsigned int, safer to use than %d, int, as default expected return is %lu
 
     // Boolean Variables, need declare stdbool.h header
-    bool cs2040cIsScary = true; // returned as integers, 1 (or any num that is not 0)
-    bool danielWillScoreA = false; // returned as 0
-    printf("false bool: %d\n", danielWillScoreA);
-    printf("%d\n", cs2040cIsScary != danielWillScoreA);
+    //bool cs2040cIsScary = true; // returned as integers, 1 (or any num that is not 0)
+    //bool danielWillScoreA = false; // returned as 0
+    //printf("false bool: %d\n", danielWillScoreA);
+    //printf("%d\n", cs2040cIsScary != danielWillScoreA);
 
     /* if(5 < 6) {
         printf("condition 1 true");
@@ -120,7 +120,10 @@ int main()        // define the main function
     // 'continue' breaks one iteration of the loop, will not read remaining lines in the loop after 'continue'
     // 'continue' will continue with next iteration of loop, essentially skipping one iteration
 
-    // stopped at arrays w3schools
+    // arrays
+    int numbers[] = {1,5,7};
+    printf("array 1st index: %d", numbers[0]);
+
 
 
     return 0; //does not matter unless calling main() function
